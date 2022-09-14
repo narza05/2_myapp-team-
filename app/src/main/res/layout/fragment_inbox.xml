@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Inbox"
         android:fontFamily="serif-monospace"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:textStyle="bold"
