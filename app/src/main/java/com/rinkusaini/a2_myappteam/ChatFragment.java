@@ -79,7 +79,7 @@ public class ChatFragment extends Fragment {
         userref.add(msgcollection).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
             public void onSuccess(DocumentReference documentReference) {
-                Toast.makeText(getActivity(), "Sent", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Sent Successful", Toast.LENGTH_SHORT).show();
                 getChildFragmentManager().beginTransaction().replace(R.id.chat, new InboxFragment()).commit();
             }
         })
